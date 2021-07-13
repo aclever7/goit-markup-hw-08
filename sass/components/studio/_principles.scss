@@ -1,0 +1,59 @@
+.principles {
+  margin-bottom: -30px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+}
+
+.principles__thumb {
+  padding: 30px 0;
+  margin-bottom: 30px;
+  @include flexJustifyCenter;
+
+  color: $mainTextColor;
+  background-color: $principlesIconBackground;
+  border-radius: $borderRadius-4;
+}
+
+.principles__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.principles__itm {
+  width: 100%;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 60px) / 2);
+    margin-left: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 120px) / 4);
+  }
+}
+
+.principles__subtitle {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.principles__text {
+  font-size: 14;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: $secondaryTextColor;
+}

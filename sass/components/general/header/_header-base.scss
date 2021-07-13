@@ -1,0 +1,27 @@
+.header {
+  // height: 60px;
+  display: flex;
+  @include borderBottom($boxBorderColor);
+
+  // @media screen and (min-width: 768px) {
+  //   height: 80;
+  // }
+}
+
+.container--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  // @media screen and (min-width: 1200px) {
+  //   margin-left: 30px;
+  // }
+}
