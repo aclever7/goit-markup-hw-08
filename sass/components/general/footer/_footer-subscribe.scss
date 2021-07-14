@@ -1,18 +1,7 @@
-// .footer__third-part {
-//   margin-left: 93px;
-// }
-
 .subscribe {
   position: relative;
   color: $whiteColor;
 }
-
-// .subscribe__item {
-//   @media screen and (min-width: 1200px) {
-//     display: flex;
-//     flex-direction: column;
-//   }
-// }
 
 .subscribe__text {
   margin-bottom: 20px;
@@ -32,7 +21,7 @@
   width: 100%;
   background-color: $darkBackgroundColor;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  @include border($subscribeButtonBorder);
+  border: 1px solid $subscribeButtonBorder;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   font-size: 16px;
   border-radius: 4px;
@@ -60,6 +49,7 @@
   @media screen and (min-width: 1200px) {
     width: 358px;
     margin-right: 12px;
+    margin-bottom: 0;
   }
 }
 
