@@ -27,7 +27,7 @@
 
   background-color: $whiteColor;
   box-shadow: $teamSetShadow;
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 0 0 4px 4px;
 }
 
 .team__details {
@@ -38,7 +38,7 @@
 .team__employee {
   margin-bottom: 10px;
   font-weight: 500;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
@@ -46,7 +46,7 @@
 
 .team__position {
   margin-bottom: 16px;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;

@@ -1,11 +1,6 @@
 .header {
-  // height: 60px;
   display: flex;
-  @include borderBottom($boxBorderColor);
-
-  // @media screen and (min-width: 768px) {
-  //   height: 80;
-  // }
+  border-bottom: 1px solid $boxBorderColor;
 }
 
 .container--header {
@@ -20,8 +15,4 @@
     padding-top: 26px;
     padding-bottom: 26px;
   }
-
-  // @media screen and (min-width: 1200px) {
-  //   margin-left: 30px;
-  // }
 }
