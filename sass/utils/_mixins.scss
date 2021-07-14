@@ -1,42 +1,42 @@
-// BORDERS
-@mixin borderBottom($color) {
-  border-bottom: 1px solid $color;
-}
+// // BORDERS
+// @mixin borderBottom($color) {
+//   border-bottom: 1px solid $color;
+// }
 
-@mixin border($color) {
-  border: 1px solid $color;
-}
+// @mixin border($color) {
+//   border: 1px solid $color;
+// }
 
-// FLEX MIXINS
-@mixin flexSpaceCenter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+// // FLEX MIXINS
+// @mixin flexSpaceCenter {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
 
-@mixin flexCenterCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// @mixin flexCenterCenter {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
-@mixin flexBaseline {
-  display: flex;
-  align-items: baseline;
-}
+// @mixin flexBaseline {
+//   display: flex;
+//   align-items: baseline;
+// }
 
-@mixin flexStart {
-  display: flex;
-  justify-content: flex-start;
-}
+// @mixin flexStart {
+//   display: flex;
+//   justify-content: flex-start;
+// }
 
-@mixin flexCenter {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
+// @mixin flexCenter {
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+// }
 
-@mixin flexJustifyCenter {
-  display: flex;
-  justify-content: center;
-}
+// @mixin flexJustifyCenter {
+//   display: flex;
+//   justify-content: center;
+// }
